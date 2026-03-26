@@ -1,0 +1,10 @@
+name: easy_fire
+description: The simplest Firestore CRUD package. One class, any model, any path.
+version: 1.0.0
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^5.0.0
