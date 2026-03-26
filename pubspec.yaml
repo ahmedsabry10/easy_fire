@@ -1,10 +1,19 @@
 name: easy_fire
-description: The simplest Firestore CRUD package. One class, any model, any path.
+description: The simplest way to do CRUD on Firestore. One class, any model, any nested path. Zero boilerplate.
 version: 1.0.0
+homepage: https://github.com/ahmedsabry10/easy_fire
+repository: https://github.com/ahmedsabry10/easy_fire
+
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.10.0"
+
 dependencies:
   flutter:
     sdk: flutter
   cloud_firestore: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
